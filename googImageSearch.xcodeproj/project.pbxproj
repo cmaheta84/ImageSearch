@@ -1,0 +1,477 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28367A7E189EF688006A3B56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28367A7D189EF688006A3B56 /* Foundation.framework */; };
+		28367A80189EF688006A3B56 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28367A7F189EF688006A3B56 /* CoreGraphics.framework */; };
+		28367A82189EF688006A3B56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28367A81189EF688006A3B56 /* UIKit.framework */; };
+		28367A88189EF688006A3B56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28367A86189EF688006A3B56 /* InfoPlist.strings */; };
+		28367A8A189EF688006A3B56 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28367A89189EF688006A3B56 /* main.m */; };
+		28367A8E189EF688006A3B56 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28367A8D189EF688006A3B56 /* AppDelegate.m */; };
+		28367A91189EF688006A3B56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28367A8F189EF688006A3B56 /* Main.storyboard */; };
+		28367A94189EF688006A3B56 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28367A93189EF688006A3B56 /* ViewController.m */; };
+		28367A96189EF688006A3B56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28367A95189EF688006A3B56 /* Images.xcassets */; };
+		28367A9D189EF688006A3B56 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28367A9C189EF688006A3B56 /* XCTest.framework */; };
+		28367A9E189EF688006A3B56 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28367A7D189EF688006A3B56 /* Foundation.framework */; };
+		28367A9F189EF688006A3B56 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28367A81189EF688006A3B56 /* UIKit.framework */; };
+		28367AA7189EF688006A3B56 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 28367AA5189EF688006A3B56 /* InfoPlist.strings */; };
+		28367AA9189EF688006A3B56 /* googImageSearchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28367AA8189EF688006A3B56 /* googImageSearchTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		28367AA0189EF688006A3B56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 28367A72189EF688006A3B56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28367A79189EF688006A3B56;
+			remoteInfo = googImageSearch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28367A7A189EF688006A3B56 /* googImageSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = googImageSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		28367A7D189EF688006A3B56 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		28367A7F189EF688006A3B56 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28367A81189EF688006A3B56 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		28367A85189EF688006A3B56 /* googImageSearch-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "googImageSearch-Info.plist"; sourceTree = "<group>"; };
+		28367A87189EF688006A3B56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28367A89189EF688006A3B56 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		28367A8B189EF688006A3B56 /* googImageSearch-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "googImageSearch-Prefix.pch"; sourceTree = "<group>"; };
+		28367A8C189EF688006A3B56 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		28367A8D189EF688006A3B56 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		28367A90189EF688006A3B56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		28367A92189EF688006A3B56 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		28367A93189EF688006A3B56 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		28367A95189EF688006A3B56 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		28367A9B189EF688006A3B56 /* googImageSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = googImageSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		28367A9C189EF688006A3B56 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		28367AA4189EF688006A3B56 /* googImageSearchTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "googImageSearchTests-Info.plist"; sourceTree = "<group>"; };
+		28367AA6189EF688006A3B56 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		28367AA8189EF688006A3B56 /* googImageSearchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = googImageSearchTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		28367A77189EF688006A3B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28367A80189EF688006A3B56 /* CoreGraphics.framework in Frameworks */,
+				28367A82189EF688006A3B56 /* UIKit.framework in Frameworks */,
+				28367A7E189EF688006A3B56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28367A98189EF688006A3B56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28367A9D189EF688006A3B56 /* XCTest.framework in Frameworks */,
+				28367A9F189EF688006A3B56 /* UIKit.framework in Frameworks */,
+				28367A9E189EF688006A3B56 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28367A71189EF688006A3B56 = {
+			isa = PBXGroup;
+			children = (
+				28367A83189EF688006A3B56 /* googImageSearch */,
+				28367AA2189EF688006A3B56 /* googImageSearchTests */,
+				28367A7C189EF688006A3B56 /* Frameworks */,
+				28367A7B189EF688006A3B56 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		28367A7B189EF688006A3B56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				28367A7A189EF688006A3B56 /* googImageSearch.app */,
+				28367A9B189EF688006A3B56 /* googImageSearchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		28367A7C189EF688006A3B56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				28367A7D189EF688006A3B56 /* Foundation.framework */,
+				28367A7F189EF688006A3B56 /* CoreGraphics.framework */,
+				28367A81189EF688006A3B56 /* UIKit.framework */,
+				28367A9C189EF688006A3B56 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		28367A83189EF688006A3B56 /* googImageSearch */ = {
+			isa = PBXGroup;
+			children = (
+				28367A8C189EF688006A3B56 /* AppDelegate.h */,
+				28367A8D189EF688006A3B56 /* AppDelegate.m */,
+				28367A8F189EF688006A3B56 /* Main.storyboard */,
+				28367A92189EF688006A3B56 /* ViewController.h */,
+				28367A93189EF688006A3B56 /* ViewController.m */,
+				28367A95189EF688006A3B56 /* Images.xcassets */,
+				28367A84189EF688006A3B56 /* Supporting Files */,
+			);
+			path = googImageSearch;
+			sourceTree = "<group>";
+		};
+		28367A84189EF688006A3B56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28367A85189EF688006A3B56 /* googImageSearch-Info.plist */,
+				28367A86189EF688006A3B56 /* InfoPlist.strings */,
+				28367A89189EF688006A3B56 /* main.m */,
+				28367A8B189EF688006A3B56 /* googImageSearch-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		28367AA2189EF688006A3B56 /* googImageSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				28367AA8189EF688006A3B56 /* googImageSearchTests.m */,
+				28367AA3189EF688006A3B56 /* Supporting Files */,
+			);
+			path = googImageSearchTests;
+			sourceTree = "<group>";
+		};
+		28367AA3189EF688006A3B56 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				28367AA4189EF688006A3B56 /* googImageSearchTests-Info.plist */,
+				28367AA5189EF688006A3B56 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		28367A79189EF688006A3B56 /* googImageSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28367AAC189EF688006A3B56 /* Build configuration list for PBXNativeTarget "googImageSearch" */;
+			buildPhases = (
+				28367A76189EF688006A3B56 /* Sources */,
+				28367A77189EF688006A3B56 /* Frameworks */,
+				28367A78189EF688006A3B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = googImageSearch;
+			productName = googImageSearch;
+			productReference = 28367A7A189EF688006A3B56 /* googImageSearch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		28367A9A189EF688006A3B56 /* googImageSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 28367AAF189EF688006A3B56 /* Build configuration list for PBXNativeTarget "googImageSearchTests" */;
+			buildPhases = (
+				28367A97189EF688006A3B56 /* Sources */,
+				28367A98189EF688006A3B56 /* Frameworks */,
+				28367A99189EF688006A3B56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				28367AA1189EF688006A3B56 /* PBXTargetDependency */,
+			);
+			name = googImageSearchTests;
+			productName = googImageSearchTests;
+			productReference = 28367A9B189EF688006A3B56 /* googImageSearchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		28367A72189EF688006A3B56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Y.CORP.YAHOO.COM\\cmaheta84";
+				TargetAttributes = {
+					28367A9A189EF688006A3B56 = {
+						TestTargetID = 28367A79189EF688006A3B56;
+					};
+				};
+			};
+			buildConfigurationList = 28367A75189EF688006A3B56 /* Build configuration list for PBXProject "googImageSearch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 28367A71189EF688006A3B56;
+			productRefGroup = 28367A7B189EF688006A3B56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				28367A79189EF688006A3B56 /* googImageSearch */,
+				28367A9A189EF688006A3B56 /* googImageSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		28367A78189EF688006A3B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28367A96189EF688006A3B56 /* Images.xcassets in Resources */,
+				28367A88189EF688006A3B56 /* InfoPlist.strings in Resources */,
+				28367A91189EF688006A3B56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28367A99189EF688006A3B56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28367AA7189EF688006A3B56 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28367A76189EF688006A3B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28367A94189EF688006A3B56 /* ViewController.m in Sources */,
+				28367A8E189EF688006A3B56 /* AppDelegate.m in Sources */,
+				28367A8A189EF688006A3B56 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		28367A97189EF688006A3B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28367AA9189EF688006A3B56 /* googImageSearchTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28367AA1189EF688006A3B56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 28367A79189EF688006A3B56 /* googImageSearch */;
+			targetProxy = 28367AA0189EF688006A3B56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		28367A86189EF688006A3B56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28367A87189EF688006A3B56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		28367A8F189EF688006A3B56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28367A90189EF688006A3B56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		28367AA5189EF688006A3B56 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				28367AA6189EF688006A3B56 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		28367AAA189EF688006A3B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		28367AAB189EF688006A3B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		28367AAD189EF688006A3B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googImageSearch/googImageSearch-Prefix.pch";
+				INFOPLIST_FILE = "googImageSearch/googImageSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		28367AAE189EF688006A3B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googImageSearch/googImageSearch-Prefix.pch";
+				INFOPLIST_FILE = "googImageSearch/googImageSearch-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		28367AB0189EF688006A3B56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/googImageSearch.app/googImageSearch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googImageSearch/googImageSearch-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "googImageSearchTests/googImageSearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		28367AB1189EF688006A3B56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/googImageSearch.app/googImageSearch";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "googImageSearch/googImageSearch-Prefix.pch";
+				INFOPLIST_FILE = "googImageSearchTests/googImageSearchTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		28367A75189EF688006A3B56 /* Build configuration list for PBXProject "googImageSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28367AAA189EF688006A3B56 /* Debug */,
+				28367AAB189EF688006A3B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		28367AAC189EF688006A3B56 /* Build configuration list for PBXNativeTarget "googImageSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28367AAD189EF688006A3B56 /* Debug */,
+				28367AAE189EF688006A3B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		28367AAF189EF688006A3B56 /* Build configuration list for PBXNativeTarget "googImageSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				28367AB0189EF688006A3B56 /* Debug */,
+				28367AB1189EF688006A3B56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 28367A72189EF688006A3B56 /* Project object */;
+}
