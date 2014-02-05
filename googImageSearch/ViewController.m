@@ -51,17 +51,18 @@
     AFJSONRequestOperation *operation = [AFJSONRequestOperation JSONRequestOperationWithRequest:request success:^(NSURLRequest *request, NSHTTPURLResponse *response, id JSON) {
         id results = [JSON valueForKeyPath:@"responseData.results"];
         if ([results isKindOfClass:[NSArray class]]) {
-            [self.searches insertObject:searchTerm atIndex:0];
             NSMutableArray *existingResults = [[NSMutableArray alloc] initWithArray:self.searchResults[searchTerm] copyItems:YES] ;
             [existingResults addObjectsFromArray:results];
             self.searchResults[searchTerm] = existingResults;
             dispatch_async(dispatch_get_main_queue(), ^{
                 // Placeholder: reload collectionview data
-                if(start == 40) {
+                if((start % 40)==4) {
                     [self.collectionView reloadData];
                 }
             });
             [self reloadMore:start query:searchTerm];
+        }else {
+            [self.collectionView reloadData];
         }
     } failure:nil];
     
@@ -83,7 +84,7 @@
                 // Placeholder: reload collectionview data
                 [self.collectionView reloadData];
             });
-            [self reloadMore:0 query:searchTerm];
+            [self reloadMore:4 query:searchTerm];
         }
     } failure:nil];
     
